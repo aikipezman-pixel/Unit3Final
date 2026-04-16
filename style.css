@@ -53,12 +53,8 @@ nav {
 }
 
 .nav__logo {
-    width: 100%;
-    max-width: 1200px;
-    padding: 0 24px;
     display: flex;
     align-items: center;
-    margin: 0 auto;
 }
 .logo {
     width: 40px;
@@ -75,7 +71,7 @@ nav {
 .nav__links {
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    gap: calc(10%);
     padding-bottom: 2px;
 }
 .btn__menu {}
