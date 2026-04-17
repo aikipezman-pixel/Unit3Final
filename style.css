@@ -40,11 +40,12 @@ nav {
 .nav__container {
     width: 100%;
     max-width: 1200px;
-    padding: 0 24px;
+    padding: 36px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    
 }
 .nav__row{
     height: 80px;
@@ -54,7 +55,6 @@ nav {
 
 .nav__logo {
     display: flex;
-    align-items: center;
 }
 .logo {
     width: 40px;
@@ -72,6 +72,6 @@ nav {
     display: flex;
     align-items: center;
     gap: calc(10%);
-    padding-bottom: 2px;
+    padding: 0 24px;
 }
 .btn__menu {}
