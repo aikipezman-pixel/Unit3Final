@@ -77,6 +77,10 @@ nav {
     letter-spacing: 0.6px; 
 }
 
+.nav__link {
+    margin: 0 12px;
+}
+
 .nav__links {
     display: flex;
     align-items: center;
