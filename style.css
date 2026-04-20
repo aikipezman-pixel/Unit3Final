@@ -52,7 +52,7 @@ h1 {
 
 /*menu*/
  #menu {
-    background-color: rgba (115, 66, 214, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
  }
 
 .row {
@@ -133,10 +133,11 @@ nav {
 /*header*/
 .header__description {
     width: 40%;
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    padding: 15px;
     }
 
 .header__description--para {
