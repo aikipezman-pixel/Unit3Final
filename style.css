@@ -59,6 +59,7 @@ h1 {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
 }
 
 nav {
@@ -199,4 +200,9 @@ nav {
 }
 .header__img--wrapper {
     width: calc(100% - 40%);
+}
+.header__customers {
+    margin-top: 16px;
+    padding-right: 128px;
+    opacity: 0.5;
 }
