@@ -41,9 +41,7 @@ h1 {
     line-height: 1.25;
 }
 
-h2 {
-    font-weight: 900;
-}
+
 
 .container {
     padding: 96px 0;
@@ -51,6 +49,7 @@ h2 {
 
 .purple {
     color: #6415ff;
+    font-weight: inherit;
 }
 #features {
     position: relative;
@@ -284,7 +283,12 @@ nav {
 }
 
 .quality__img--wrapper {
-    position: relative;
+  border-radius: 4px;
+  border: 1px solid rgb(229, 231, 235);
+  position: relative;
+  margin: 0 56px;
+  z-index: 2;
+  display: flex;
 }
 
 .quality__description {
