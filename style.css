@@ -41,6 +41,10 @@ h1 {
     line-height: 1.25;
 }
 
+h2 {
+    font-weight: 900;
+}
+
 .container {
     padding: 96px 0;
 }
@@ -279,6 +283,10 @@ nav {
     width: 50%;
 }
 
+.quality__img--wrapper {
+    position: relative;
+}
+
 .quality__description {
   max-width: 576px;
   margin-right: 64px;
@@ -300,6 +308,7 @@ nav {
 }
 .quality__img {
   z-index: 1;
+  position: relative;
 }
 .quality__grid {
   transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
