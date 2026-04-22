@@ -218,11 +218,7 @@ nav {
 .header__img--wrapper {
     width: calc(100% - 40%);
 }
-.header__customers {
-    margin-top: 16px;
-    padding-right: 128px;
-    opacity: 0.5;
-}
+
 /*Features*/
 .row__narrow {
         width: 100%;
