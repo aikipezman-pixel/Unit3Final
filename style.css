@@ -313,6 +313,9 @@ nav {
 .quality__img {
   z-index: 1;
   position: relative;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 .quality__grid {
   transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
