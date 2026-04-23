@@ -289,7 +289,6 @@ nav {
   border-radius: 4px;
   border: 1px solid rgb(229, 231, 235);
   position: relative;
-  
   margin: 0;
   overflow: hidden;
 }
@@ -321,17 +320,18 @@ nav {
   display: block;
 }
 .quality__grid {
-  transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
+  /*transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);*/
   width: 80px;
   height: 80px;
   position: absolute;
-  right: 0px;
-  bottom: 0px;
+  right: -40px;
+  bottom: -40px;
   fill: rgb(100, 21, 255);
   --tw-text-opacity: 1;
   color: rgba(100, 21, 255, var(--tw-text-opacity));
   z-index: 1;
   display: block;
+  transform: none;
 }
 /*Steps*/
 .steps__description,
@@ -354,4 +354,34 @@ nav {
   z-index: -10;
   color: rgb(100, 21, 255); /* currentColor will inherit this */
   fill: currentColor;
+}
+.steps__description {
+  padding: 32px 0;
+  padding-left: 64px;
+}
+ .steps__list {
+    margin-top: 48px;
+  }
+.step {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 32px;
+}
+.step__number {
+  color: #cbd5e0;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1;
+}
+.step__description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  max-width: 320px;
+}
+.step__title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #243e63;
+  line-height: 1;
 }
