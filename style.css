@@ -311,7 +311,7 @@ nav {
   margin-top: 32px;
 }
 .quality__img {
-  z-index: 2;
+  z-index: -1;
   position: relative;
   width: 100%;
   height: auto;
@@ -327,9 +327,9 @@ nav {
   fill: rgb(100, 21, 255);
   --tw-text-opacity: 1;
   color: rgba(100, 21, 255, var(--tw-text-opacity));
-  z-index: 1;
+  z-index: 0;
   display: block;
-  transform: translate(35%, 35%)
+  transform: translateX(50%), translateY(50);
 }
 /*Steps*/
 #steps .row {
@@ -337,7 +337,6 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-
 
 .steps__description,
 .steps__img--wrapper {
