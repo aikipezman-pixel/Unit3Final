@@ -274,8 +274,15 @@ nav {
     height: 24px;
 }
 /*Quality*/
+
+#quality .row {
+    gap: 64px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .quality__description, .quality__img--wrapper {
-    width: 50%;
+    width: calc(50% - 32px);
 }
 
 .quality__img--wrapper {
@@ -284,12 +291,12 @@ nav {
   position: relative;
   margin: 0 56px;
   z-index: 2;
-  display: flex;
+  margin: 0;
 }
 
 .quality__description {
   max-width: 576px;
-  margin-right: 64px;
+  margin-right: 0px;
 }
 
 .btn {
