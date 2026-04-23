@@ -41,8 +41,6 @@ h1 {
     line-height: 1.25;
 }
 
-
-
 .container {
     padding: 96px 0;
 }
@@ -290,7 +288,7 @@ nav {
   border: 1px solid rgb(229, 231, 235);
   position: relative;
   margin: 0;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .quality__description {
@@ -324,16 +322,23 @@ nav {
   width: 80px;
   height: 80px;
   position: absolute;
-  right: -40px;
-  bottom: -40px;
+  right: 0px;
+  bottom: 0px;
   fill: rgb(100, 21, 255);
   --tw-text-opacity: 1;
   color: rgba(100, 21, 255, var(--tw-text-opacity));
   z-index: 1;
   display: block;
-  transform: none;
+  transform: translate(35%, 35%)
 }
 /*Steps*/
+#steps .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 .steps__description,
 .steps__img--wrapper {
   width: 50%;
