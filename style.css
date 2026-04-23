@@ -289,9 +289,9 @@ nav {
   border-radius: 4px;
   border: 1px solid rgb(229, 231, 235);
   position: relative;
-  margin: 0 56px;
-  z-index: 2;
+  
   margin: 0;
+  overflow: hidden;
 }
 
 .quality__description {
@@ -314,7 +314,7 @@ nav {
   margin-top: 32px;
 }
 .quality__img {
-  z-index: 1;
+  z-index: 2;
   position: relative;
   width: 100%;
   height: auto;
@@ -330,6 +330,28 @@ nav {
   fill: rgb(100, 21, 255);
   --tw-text-opacity: 1;
   color: rgba(100, 21, 255, var(--tw-text-opacity));
-  z-index: 0;
+  z-index: 1;
   display: block;
+}
+/*Steps*/
+.steps__description,
+.steps__img--wrapper {
+  width: 50%;
+}
+.steps__img--wrapper {
+  display: flex;
+  position: relative;
+}
+
+.steps__grid {
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10rem;
+  height: 10rem;
+  opacity: 0.8;
+  z-index: -10;
+  color: rgb(100, 21, 255); /* currentColor will inherit this */
+  fill: currentColor;
 }
