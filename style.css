@@ -242,7 +242,9 @@ header .row {
     font-size: 16px;
     transition: all 300ms ease;
 }
-
+.header__email--btn:hover {
+  background-color: rgba(60, 13, 153);
+}
 .header__customers--title {
     margin-top: 80px;
     color: #a0aec0;
@@ -636,6 +638,12 @@ header .row {
     rgb(129, 230, 217) 100%
   );
 }
+.plan__button:hover {
+  transform: translate(1px, -1px);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
 .plan:nth-child(2) .plan__name,
 .plan:nth-child(2) .plan__price,
 .plan:nth-child(2) .plan__target,
@@ -945,7 +953,27 @@ start__blob--2 {
   z-index: 2;
 }
 
+.start__blob--1 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 20rem;
+  width: 20rem;
+  transform: translate(-5rem, 8rem);
+  color: rgb(80 17 204);
+  opacity: 0.5;
+}
 
+.start__blob--2 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 20rem;
+  width: 20rem;
+  transform: translate(5rem, -16rem);
+  color: rgb(80 17 204);
+  opacity: 0.5;
+}
 
 .start__button:nth-child(1) {
   background: #f56565;
@@ -989,6 +1017,26 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+.footer__blob--1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 320px;
+  transform: translateX(-80px) translateY(-128px);
+  z-index: 1;
+  opacity: 0.5;
+}
+.footer__blob--2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 320px;
+  height: 320px;
+  transform: translateX(128px) translateY(192px);
+  z-index: 1;
+  opacity: 0.5;
 }
 
 .footer__column {
